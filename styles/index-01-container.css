@@ -1,0 +1,9 @@
+div {
+  margin-top: 5px;
+  height: 70px;
+  background-color: antiquewhite;
+  color: brown;
+  box-sizing: border-box;
+  border: 1px solid red;
+  font-family: "Courier New", Courier, monospace;
+}

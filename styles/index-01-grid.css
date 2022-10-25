@@ -1,0 +1,18 @@
+.container {
+  margin-top: 10px;
+  border: 1px dashed red;
+}
+
+.container > .row {
+  margin: 5px;
+  color: brown;
+  box-sizing: border-box;
+  border: 1px solid blue;
+}
+
+.container > .row > div {
+  background-color: antiquewhite;
+  color: brown;
+  box-sizing: border-box;
+  border: 1px dotted green;
+}
