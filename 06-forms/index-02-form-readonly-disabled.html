@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Formulários</title>
+</head>
+
+<body>
+
+    <!-- Form Disabled and Fields Readonly Disabled -->
+    <div class="col-4 mt-4 mx-auto">
+        <h2>Formulário de Registro</h2>
+        <form>
+            <!-- <fieldset disabled> -->
+            <fieldset>
+                <div class="mb-4">
+                    <label for="emailDisabled" class="form-label">E-Mail:</label>
+                    <input type="email" id="emailDisabled" name="emailDisabled" class="form-control"
+                        placeholder="Insira seu e-mail" value="disabled@gmail.com" disabled>
+                </div>
+                <div class="mb-4">
+                    <label for="emailReadonly" class="form-label">E-Mail:</label>
+                    <input type="email" id="emailReadonly" name="emailReadonly" class="form-control"
+                        placeholder="Insira seu e-mail" value="readonly@gmail.com" readonly>
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="form-label">E-Mail:</label>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="Insira seu e-mail"
+                        value="prof.otavio.medeiros@gmail.com">
+                </div>
+                <div class="mb-4">
+                    <label for="password" class="form-label">Senha:</label>
+                    <input type="password" id="password" name="password" class="form-control"
+                        placeholder="Digite a sua senha">
+                </div>
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+
+</html>

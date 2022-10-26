@@ -1,3 +1,7 @@
+body > div:nth-child(1) {
+  height: 65vh;
+}
+
 .container {
   margin-top: 10px;
 }

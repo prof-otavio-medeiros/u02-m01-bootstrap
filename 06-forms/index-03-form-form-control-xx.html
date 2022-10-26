@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Formulários</title>
+</head>
+
+<body>
+
+    <!-- Formulário com 'form-control-{grid}' -->
+    <div class="col-4 mt-4 mx-auto">
+        <h2>Crie seu Post</h2>
+        <form>
+            <div class="mb-4">
+                <label for="title" class="form-label">Título do Post:</label>
+                <input type="text" id="title" name="title" class="form-control form-control-lg" placeholder="Digite seu título">
+            </div>
+            <div class="mb-4">
+                <label for="content" class="form-label">Conteúdo:</label>
+                <textarea name="content" id="content" class="form-control" placeholder="Digite o conteúdo do post..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

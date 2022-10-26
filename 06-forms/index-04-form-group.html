@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Formulários</title>
+</head>
+
+<body>
+
+    <!-- Formulário com 'input-group' -->
+    <div class="col-4 mt-4 mx-auto">
+        <h2>Formulário de Registro</h2>
+        <form>
+
+            <label for="email" class="form-label">Informe seu e-mail:</label>
+            <div class="input-group mb-4">
+                <span class="input-group-text">@</span>
+                <input type="email" id="email" name="email" class="form-control" placeholder="Insira seu e-mail">
+            </div>
+
+            <label for="salary" class="form-label">Informe seu salário:</label>
+            <div class="input-group mb-4">
+                <span class="input-group-text">R$</span>
+                <input type="number" id="salary" name="salary" class="form-control text-end" placeholder="Valor">
+                <span class="input-group-text">,00</span>
+            </div>
+
+            <label for="password" class="form-label">Informe sua senha:</label>
+            <div class="input-group mb-4">
+                <span class="input-group-text">*</span>
+                <input type="password" id="password" name="password" class="form-control"
+                    placeholder="Digite a sua senha">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
