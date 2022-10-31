@@ -16,3 +16,18 @@
   box-sizing: border-box;
   border: 1px dotted green;
 }
+
+/* VERTICAL ALIGNMENT*/
+
+.col-3 {
+  height: 50px;
+}
+
+.vertical {
+  height: 250px;
+  border-color: coral;
+}
+
+.vertical .row {
+  height: 100%;
+}
